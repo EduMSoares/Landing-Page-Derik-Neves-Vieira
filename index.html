@@ -15,10 +15,11 @@
                               <!-- LANDINGPAGE -->
   <main class="conteudo">
     <header class="back_cabecalho" id="inicio">
-      <div class="cabecalho">
-        
+
+
+
                                <!-- NAVBAR -->
-          <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+         <nav class="navbar navPC fixed-top navbar-expand-lg navbar-light">
             <div class="container-fluid contNav">
 
               <div class="brand d-flex justify-content-center align-items-center flex-wrap">
@@ -51,7 +52,104 @@
               
             </div>
           </nav>
-        <!-- /NAVBAR -->
+                              <!-- /NAVBAR -->
+                                      <!-- OFFcanvas -->
+<nav class="navbar navMOBILE navbar-light fixed-top" width="159">
+  
+  <div class="container-fluid contNav">
+    
+    <div class="brand d-flex justify-content-center align-items-center flex-wrap">
+      
+      <a class="navbar-brand" href="#inicio">
+          <img src="img/Logo.png" alt="Logo Arvore" class="navbar-brand-img mt-2">
+      </a>
+      <h3 class="cabecalho-txt mt-1 ms-2">
+        Psicólogo  |  CRP 06/155696
+      </h3>
+      
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-primary">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-danger">
+        
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#atendimento">Atendimento</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Me mande um email!</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#contato" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contato
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+
+            <div class="col-6 d-flex flex-row">
+              <li>
+                <a class="dropdown-item" href="https://web.whatsapp.com/send?phone=+5511962820298">
+                  <i class="fab fa-whatsapp  cont2-plataformas-items iconcontatoD"></i>
+                </a>
+              </li>
+              
+              <li>
+                <a class="dropdown-item"  href="https://www.facebook.com/derik.vieira.98">
+                  <i class="fab fa-facebook cont2-plataformas-items iconcontatoD" id="facebook"></i>
+                </a>
+              </li>
+            </div>
+
+
+            <div class="col-6 d-flex flex-row">
+              <li>
+                <a class="dropdown-item" href="https://www.instagram.com/psicoderikvieira/">
+                  <i class="fab fa-instagram cont2-plataformas-items iconcontatoD"></i>
+                </a>
+              </li>
+              
+              <li>
+                <a class="dropdown-item"  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdkFwsKFTpcfcBSdrDhbfDxwxfqHKbmRwkKzVQjMBkjPZghHqsqSKTQNxrGmHSjdvdRxq">
+                  <i class="fa-brands fa-google cont2-plataformas-items iconcontatoD"></i>
+                </a>
+              </li>
+            </div>
+
+              
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              
+              <li>
+                <input value="+55 (11) 962820298" class="dropdown-item cont2-contato-outros-txtD" id="copytxt"></input>
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+  
+</nav>
+                              <!-- /OFFcanvas -->
+
     </header>
     
      <section class="primario">
@@ -62,11 +160,6 @@
           <h2 class="primario-txt-bio">
             Graduado em psicologia pela Mackenzie e mestrando no IP-USP. Tenho como missão a popularização do cuidado à saúde mental para todos que desejarem. Foco no desenvolvimento humano. E sempre baseado no estudo cientifico e na ética profissional.
           </h2>
-         <!-- <div class="primario-btn">
-            <a href="#atendimentoOnline" class="primario-btn-item">Atendimento Online</a>
-            <a href="#atendimentoPresencial" class="primario-btn-item">Atendimento Presencial</a>
-            <a href="#contato" class="primario-btn-item">Contato</a>
-          </div> -->
        </div>
        <img src="img/PerfilDerik.png" alt="Foto do Derik" class="primario-img">
      </section>
@@ -144,7 +237,7 @@
       <h3 class="cont2-subtitulo3">
        E-mail
       </h3>
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTLGXqjtjtwtFjSCvcGZwgrvFPNDBFTjKfNCqHhlKnpFngZRRjhRVxNwSCFNkRhFcqMCbB" class="cont2-contato-outros-txt">
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdkFwsKFTpcfcBSdrDhbfDxwxfqHKbmRwkKzVQjMBkjPZghHqsqSKTQNxrGmHSjdvdRxq" class="cont2-contato-outros-txt">
         deriknevesvieira@gmail.com
       </a>
     </div>
@@ -172,6 +265,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/b6b51189cb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c04710b2ad.js" crossorigin="anonymous"></script>
   </body>
 </html>

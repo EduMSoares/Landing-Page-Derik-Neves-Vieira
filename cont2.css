@@ -239,6 +239,14 @@
   padding: 1% 0 1% 0;
   text-decoration: none;
 }
+.cont2-contato-outros-txtD {
+  font-family: 'Comfortaa', cursive;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  padding: 1% 0 1% 0;
+  text-decoration: none;
+}
 .cont2-contato-outros-telefone {
   padding-top: 35px;
 }

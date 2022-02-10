@@ -15,6 +15,10 @@ img{
     display: block;
 }
 /* CABEÇALHO */
+
+.brand {
+  gap: 1rem;
+}
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -27,7 +31,11 @@ img{
   font-weight: 700;
   
 }
-
+.contNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navbar {
   background: rgba(208, 239, 242, 0.95);
   padding-top: 0 !important;
@@ -41,6 +49,11 @@ img{
 }
 .navbar-brand-img {
   width: 80px;
+}
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-right: 0 !important;
 }
 
 
@@ -88,6 +101,7 @@ img{
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
+  transition: 1.2s;
 }
 .primario-btn-item {
   background-color: #D0EFF2;
@@ -140,14 +154,39 @@ img{
   }
 
 }
-@media (max-width: 534px){
 
-  .primario-txt-titulo {
-    margin-top:115px;
-  }
-  
+/* espaçamento entre navBar e "Derik Neves Vieira" */
+@media (max-width: 640px){
+  .primario {
+    padding: 25% 5% 8% 5%;
+}
+}
+  @media (max-width: 435px){
+  .primario {
+    padding: 55% 5% 8% 5%;
+}
+}
+    @media (max-width: 435px){
+  .primario {
+    padding: 65% 2% 8% 2%;
+}
+}
+/* /espaçamento entre navBar e "Derik Neves Vieira" */
+
+
+@media (max-width: 414px){
+
+  .contNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1.2s;
 }
 
+}
+
+  
 @media (min-width: 992px) {
     .navbar-expand-lg {
         flex-wrap: nowrap;

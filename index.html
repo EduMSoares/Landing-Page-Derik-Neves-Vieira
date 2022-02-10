@@ -5,6 +5,8 @@
     <html lang="pt-BR"> 
     <meta name="viewport" content="width=device-width">
     <title>Derik Neves Vieira</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="cont2.css">
 
@@ -12,14 +14,46 @@
   <body>
                               <!-- LANDINGPAGE -->
   <main class="conteudo">
-    
-    <header class="back_cabecalho">
+    <header class="back_cabecalho" id="inicio">
       <div class="cabecalho">
-        <h3 class="cabecalho-txt">
-          Psicólogo  |  CRP 06/155696
-        </h3>
-      </div>
+        
+                               <!-- NAVBAR -->
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+
+              <div class="brand d-flex justify-content-center align-items-center flex-wrap">
+              <a class="navbar-brand" href="#inicio">
+                <img src="img/Logo.png" alt="Logo Arvore" class="navbar-brand-img mt-2">
+              </a>
+                <h3 class="cabecalho-txt mt-1 ms-2">
+                  Psicólogo  |  CRP 06/155696
+                </h3>
+              </div>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse primario-btn" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active primario-btn-item" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link primario-btn-item" href="#atendimento">Atendimento</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link primario-btn-item" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>             
+
+              
+            </div>
+          </nav>
+        <!-- /NAVBAR -->
     </header>
+    
      <section class="primario">
         <div class="primario-txt">
           <h1 class="primario-txt-titulo">
@@ -28,42 +62,47 @@
           <h2 class="primario-txt-bio">
             Graduado em psicologia pela Mackenzie e mestrando no IP-USP. Tenho como missão a popularização do cuidado à saúde mental para todos que desejarem. Foco no desenvolvimento humano. E sempre baseado no estudo cientifico e na ética profissional.
           </h2>
-          <div class="primario-btn">
+         <!-- <div class="primario-btn">
             <a href="#atendimentoOnline" class="primario-btn-item">Atendimento Online</a>
             <a href="#atendimentoPresencial" class="primario-btn-item">Atendimento Presencial</a>
             <a href="#contato" class="primario-btn-item">Contato</a>
-          </div>
+          </div> -->
        </div>
-       <img src="../img/PerfilDerik.png" alt="Foto do Derik" class="primario-img">
+       <img src="img/PerfilDerik.png" alt="Foto do Derik" class="primario-img">
      </section>
+    
    </main>
                               <!-- CONTEUDO -->
   <main class="cont2">
     <header class="cont2-header">
-      <img src="../img/Logo.png" alt="Logo Arvore" class="cont2-header-img">
+      <img src="img/Logo.png" alt="Logo Arvore" class="cont2-header-img" id="atendimento">
     </header>
                                 <!-- Atendimento -->
     <section class="cont2-atendimento">
-      <h1 id="atendimentoOnline" class="cont2-titulo">
-        Atendimento online
+      <h1 class="cont2-titulo">
+        Atendimento
       </h1>
-      
-      <h3 class="cont2-subtitulo">
-        Assim como no presencial, é um momento para que você e seu psicólogo conversem sobre os problemas e preocupações atuais da sua vida para o seu desenvolvimento, sempre com sigilo e segurança.
+    <div class="contAtendimento1">
+      <h3 class="cont2-subtitulo mt-3">
+        Tanto Online quanto presencial, será um momento para que você e seu psicólogo conversem sobre os problemas e preocupações atuais da sua vida para o seu desenvolvimento, sempre com sigilo e segurança.
       </h3>
-      <h3 class="cont2-subtitulo2">
+      
+    <div class="cont2Container-plataform">
+      <h3 class="cont2-subtitulo2 mt-5">
         Atendimento online realizado nas plataformas:
       </h3>
       <div class="cont2-plataformas">
-        <a href="https://www.microsoft.com/pt-br/p/meetapp/9wzdncrdf7t0"><img class="cont2-plataformas-items" src="../img/plataformas/zoomlogo.png" alt="Microsoft ZOOM logo"></a>
-        <a href="https://meet.google.com"><img class="cont2-plataformas-items" id="meet" src="../img/plataformas/meetlogo.png" alt="Goole meet logo">
+        <a href="https://www.microsoft.com/pt-br/p/meetapp/9wzdncrdf7t0"><img class="cont2-plataformas-items" src="img/plataformas/zoomlogo.png" alt="Microsoft ZOOM logo"></a>
+        <a href="https://meet.google.com"><img class="cont2-plataformas-items" id="meet" src="img/plataformas/meetlogo.png" alt="Goole meet logo">
         <a href="https://www.skype.com/pt-br/"><i class="fab fa-skype  cont2-plataformas-items" id="skype"></i></a>
         <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp  cont2-plataformas-items" id="wpp"></i></a>
       </div>
-      <h1 id="atendimentoPresencial" class="cont2-titulo">
-        Atendimento presencial
+    </div>
+    </div>
+      <h1 id="atendimentoPresencial" class="cont2-subtitulo-presencial mt-4">
+        Atendimento presencial:
       </h1>
-      <h3 class="cont2-subtitulo2">
+      <h3 class="cont2-subtitulo-rua">
         Rua restinga, 113, CJ 108
       </h3>
    
@@ -123,10 +162,15 @@
     <h1 class="footer-fim-h1">
       DERIK NEVES VIEIRA
     </h1>
+    <a href="https://github.com/EduMSoares">
+      <h3 class="footer-fim-h3">
+      Produzido por Eduardo Magalhães Soares
+    </h3>
+    </a>
   </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/b6b51189cb.js" crossorigin="anonymous"></script>
   </body>

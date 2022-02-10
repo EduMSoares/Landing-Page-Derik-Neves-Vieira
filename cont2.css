@@ -11,15 +11,9 @@
 .cont2-header-img {
       border-bottom: solid 0.4px #4BC1CE;
 }
-.cont2-noticias {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .cont2-titulo {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   color: #4BC1CE;
   font-family: 'Gothic A1', sans-serif;
@@ -45,9 +39,27 @@
   text-align: justify;
 }
 .cont2-subtitulo2 {
-  padding: 1% 1% 5% 1%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 1% 3% 1%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+.cont2-subtitulo-presencial {
+  color: #000000;
+  padding: 1% 1% 1% 1%;
   font-family: 'Comfortaa', cursive;
   font-size: 20px;
+  font-weight: bold;
+}
+.cont2-subtitulo-rua{
+  padding: 1% 1% 1% 1%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
   font-weight: bold;
 }
 .cont2-plataformas {
@@ -61,6 +73,9 @@
   border-bottom: solid 0.4px #4BC1CE;
   width: 964px;
   padding: 1% 1% 0.5% 1%;
+}
+.cont2-plataformas:focus {
+  transition: 1s;
 }
 .cont2-plataformas-items {
   width: 40px;
@@ -213,7 +228,7 @@
 /* FOOTER */
 .footer-fim{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1% 1% 0% 1%;
@@ -226,23 +241,44 @@
   font-weight: bolder;
   color: #12ADBF;
 }
-               /* MEDIA QUERY */
-@media (max-width: 1010px){
-  .container-carousel {
-  width: 500px;
-  height: 300px;
-  margin: 0 !important;
+.footer-fim-h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(84, 140, 146);
+  transition: 1s; 
+}             /* MEDIA QUERY */
+
+@media (min-width:  992px){
+ 
+  .contAtendimento1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+ .cont2Container-plataform {
+   display: flex;
+   flex-direction: column;
+   width: 490px;
+   height: 180px;
+   padding-left: 20px;
+ }
+ .cont2-subtitulo {
+    width: 455px;
+   padding-right: 20px;
+   border-right: solid 0.4px #4BC1CE;
 }
-.cont2-contato-outros-txt {
-  font-size: 16px;
+.cont2-plataformas {
+    border-bottom: none;
 }
-.cont2-contato-outros {
-  border-radius: 10px;
-  height: 300px;
+  
 }
-.cont2-contato-email {
-  border-radius: 10px;
-}
+
+
+@media (max-width:  992px){
+ 
 .footer-fim-h1 {
   font-size: 25px;
 }

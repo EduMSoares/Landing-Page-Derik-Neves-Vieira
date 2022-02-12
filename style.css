@@ -75,6 +75,10 @@ img{
   color: #000000;
   margin-right: 5px;
 }
+.numeroTelefone {
+  background: none;
+  border: none;
+}
 
 /* MAIN */
 .conteudo {

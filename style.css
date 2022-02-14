@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Gothic+A1:wght@400;600;700&display=swap');
 
+
+/* PALETA DE COR NOVA */
+/* azul escuro #252b39 *
+/* azul claro #395e89 */
+
 *{
   margin: 0;
   padding: 0;
@@ -37,16 +42,16 @@ img{
   align-items: center;
 }
 .navbar {
-  background: rgba(208, 239, 242, 0.95);
+  background: #395e89f5;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   transition: 0.8s;
 }
 .bg-primary {
-  background: rgba(208, 239, 242, 0.95) !important;
+  background: #395e89 !important;
 }
 .bg-danger {
-  background: rgba(208, 239, 242, 0.21)!important;
+  background: #252b39 !important;
 }
   .navPC{
     visibility: visible;
@@ -63,7 +68,7 @@ img{
     margin-right: 1rem;
 }
 .navbar-brand-img {
-  width: 80px;
+  width: 270px;
 }
 .navbar-brand {
     padding-top: 0 !important;
@@ -82,9 +87,9 @@ img{
 
 /* MAIN */
 .conteudo {
-  background-image: url(fundo.png);
+  background-image: url(fundoB.png);
   background-size: cover;
-  border-bottom: solid 0.4px #D1ECF3;
+  border-bottom: solid 0.4px #395e89;
 }
 .primario {
   display: flex;
@@ -130,7 +135,7 @@ img{
   transition: 1.2s;
 }
 .primario-btn-item {
-  background-color: #D0EFF2;
+  background-color: #395e89;
   border: none;
   border-radius: 11px;
   width: 110px;

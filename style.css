@@ -45,8 +45,10 @@ img{
   background: #395e89f5;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  color: white;
   transition: 0.8s;
+}
+.navbar-item{
+  color: #fff !important; 
 }
 .bg-primary {
   background: #395e89 !important;

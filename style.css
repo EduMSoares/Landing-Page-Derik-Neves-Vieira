@@ -47,6 +47,12 @@ img{
   padding-bottom: 0 !important;
   transition: 0.8s;
 }
+.nav-link{
+  color: #fff !important;
+}
+.offcanvas{
+  color: #fff !important;
+}
 .bg-primary {
   background: #395e89 !important;
 }
@@ -60,7 +66,7 @@ img{
     visibility: hidden;
   }
 .offcanvas-end {
-    width: 180px;
+    width: 230px;
 }
 .navbar-brand {
     padding-top: 0 !important;
@@ -87,7 +93,7 @@ img{
 
 /* MAIN */
 .conteudo {
-  background-image: url(fundoB.png);
+  background-image: url(fundo.png);
   background-size: cover;
   border-bottom: solid 0.4px #395e89;
 }

@@ -47,13 +47,14 @@ img{
   padding-bottom: 0 !important;
   transition: 0.8s;
 }
+
 .nav-link{
   color: #fff !important;
 }
 .offcanvas{
   color: #fff !important;
 }
-.bg-primary {
+  .bg-primary {
   background: #395e89 !important;
 }
 .bg-danger {
@@ -149,7 +150,7 @@ img{
   font-family: 'Gothic A1', sans-serif;
   font-size: 15px;
   font-weight: 700;
-  color: #12ADBF;
+  color: #fff !important;
   cursor: pointer;
   text-decoration: none;
   display: flex;

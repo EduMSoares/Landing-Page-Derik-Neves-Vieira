@@ -50,6 +50,9 @@ img{
 .navbar-item{
   color: #fff !important; 
 }
+.offcanvas{
+  color: #fff !important; 
+}
 .bg-primary {
   background: #395e89 !important;
 }

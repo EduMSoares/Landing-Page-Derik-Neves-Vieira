@@ -112,8 +112,14 @@ img{
   gap: 32px;
 }
 .primario-txt-titulo { 
+<<<<<<< HEAD
   font-family: 'Gothic A1', sans-serif;
   font-size: 38px;
+=======
+  font-family: 'Comfortaa', cursive;
+  font-size: 34px;
+  text-align: center;
+>>>>>>> ccc86f29d2f29a22047636af815276d23b5398f2
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;

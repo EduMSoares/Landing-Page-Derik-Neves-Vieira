@@ -133,6 +133,7 @@ img{
 }
 .primario-info a{
   text-decoration: none;
+  max-width: fit-content;
 }
 .primario-info i{
   transition: 0.3s;
